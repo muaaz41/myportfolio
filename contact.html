@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="vsc.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Get in Touch with me   </h2>
+        <h3>Email Address : munirmuaaz@gmail.com</h3>
+        <h3>Phone no : +92-3214915972</h3>
+        <p><i>Feel free to reach out to me with any questions or inquiries. Fill out the form below and I'll get back to you.</i></p>
+        <form onsubmit="submitForm(event)">
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" required><br><br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" required><br><br>
+            <label for="message"><b>Message:</b></label><br>
+            <textarea id="message" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        &copy; 2023 My Portfolio. All rights reserved.
+    </footer>
+</body>
+</html>
